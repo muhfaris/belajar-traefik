@@ -37,5 +37,18 @@ defaultEntryPoints = ["http"]
                 url = "http://localhost:8082"
 ```
 
+### Run Application
+#### APP1
+`cd app1`
+`go run main.go`
+
+Listen port to :8081
+
+#### APP2
+`cd app2`
+`go run main.go`
+
+Listen port to :8082
+
 ### RUN
 `sudo ./traefik --configfile=traefik.toml`
